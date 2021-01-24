@@ -1,13 +1,15 @@
 import { useEffect } from "react";
 import "./App.css";
-
-import ColorPicker from "./components/ColorPicker";
+import Container from "./components/Container";
+import { ColorProvider } from "./contexts/ColorContext";
 
 function App() {
   return (
-    <div className="App">
-      <ColorPicker />
-    </div>
+    <>
+      <ColorProvider>
+        <Container />
+      </ColorProvider>
+    </>
   );
 }
 

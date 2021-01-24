@@ -1,8 +1,8 @@
 import { useEffect, useContext } from "react";
-
-import ColorContext from "../contexts/ColorContext";
-import { initSocket, disconnectSocket, receivedColor } from "../socketService";
-import ColorPicker from "./ColorPicker/ColorPicker";
+import ColorContext from "./contexts/ColorContext";
+import { initSocket, disconnectSocket, receivedColor } from "./socketService";
+import ColorPicker from "./components/ColorPicker/ColorPicker";
+import "./App.css";
 
 function Container() {
   const { color, setColor } = useContext(ColorContext);

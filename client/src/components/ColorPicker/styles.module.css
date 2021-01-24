@@ -1,0 +1,13 @@
+.colorPicker {
+  display: list-item;
+  text-align: center;
+}
+
+.btn {
+  color: black;
+  width: max-content;
+  margin: 8px;
+}
+.input {
+  margin-top: 20%;
+}

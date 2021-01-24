@@ -9,12 +9,14 @@ const ColorPicker = () => {
   };
   const { color, setColor } = useContext(ColorContext);
   return (
-    <div className={styles.container}>
+    <div className={styles.colorPicker}>
       <input
+        className={styles.input}
         type="color"
         value={color}
         onChange={(e) => setColor(e.target.value)}
       />
+      <br></br>
       <button className={styles.btn} onClick={changeColor}>
         Change Color
       </button>

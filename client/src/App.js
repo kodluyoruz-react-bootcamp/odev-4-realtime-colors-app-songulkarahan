@@ -1,6 +1,4 @@
-import { useEffect } from "react";
-import "./App.css";
-import Container from "./components/Container";
+import Container from "./Container";
 import { ColorProvider } from "./contexts/ColorContext";
 
 function App() {

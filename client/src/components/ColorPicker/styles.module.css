@@ -4,10 +4,24 @@
 }
 
 .btn {
-  color: black;
   width: max-content;
   margin: 8px;
+  background-color: white;
+  height: 2%;
+  padding: 6px;
+  border-radius: 5px;
+  font-weight: 400;
+  border: solid 1px black;
 }
 .input {
   margin-top: 20%;
+}
+.hex {
+  background-color: white;
+  width: max-content;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+  margin: auto;
+  font-weight: 400;
+  border: solid 1px black;
 }

@@ -20,6 +20,7 @@ const ColorPicker = () => {
       <button className={styles.btn} onClick={changeColor}>
         Change Color
       </button>
+      <div className={styles.hex}>Renk Kodu: {color.toUpperCase()}</div>
     </div>
   );
 };

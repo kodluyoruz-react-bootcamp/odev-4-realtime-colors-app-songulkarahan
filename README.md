@@ -1,2 +1,3 @@
-﻿:star2: #Real Time Colors App With React And Socket.io
-[Live Demo](https://realtime-color-app.netlify.app/)
+ # Real Time Colors App With React And Socket.io
+
+:star2: [Live Demo](https://realtime-color-app.netlify.app/)
